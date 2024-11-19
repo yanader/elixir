@@ -13,6 +13,7 @@ defmodule LanguageList do
   end
 
   def first(list) do
+    # hd(list)
     List.first(list)
   end
 
