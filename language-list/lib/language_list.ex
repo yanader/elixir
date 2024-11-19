@@ -8,6 +8,7 @@ defmodule LanguageList do
   end
 
   def remove(list) do
+    # tl(list)
     List.delete_at(list, 0)
   end
 
