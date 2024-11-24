@@ -1,10 +1,13 @@
 defmodule HighSchoolSweetheart do
   def first_letter(name) do
-    String.trim(name) |> String.at(0)
+    String.trim(name)
+    |> String.at(0)
   end
 
   def initial(name) do
-    first_letter(name) |> String.upcase() |> Kernel.<>(".")
+    first_letter(name)
+    |> String.upcase()
+    |> Kernel.<>(".")
   end
 
   def initials(full_name) do
